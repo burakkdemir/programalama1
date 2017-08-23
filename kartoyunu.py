@@ -12,7 +12,7 @@ oyuncular={}
 
 for oyuncu in range(1,5):
     oyuncular["Oyuncu " + str(oyuncu)] = []
-    for kart in range(1,4):
+    for kart in range(1,5):
         kagit = kagitlar.pop(kagitlar.index(random.choice(kagitlar)))
         oyuncular["Oyuncu "+ str(oyuncu)].append(kagit)
 
